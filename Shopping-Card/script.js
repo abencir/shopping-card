@@ -1,4 +1,3 @@
-// تحديث السعر الإجمالي
 function updateTotal() {
     let total = 0;
     document.querySelectorAll(".card").forEach((card) => {
@@ -9,7 +8,7 @@ function updateTotal() {
     document.querySelector(".total").textContent = total + " $";
   }
   
-  // التعامل مع أزرار العربة
+  
   document.querySelectorAll(".card").forEach((card) => {
     const plus = card.querySelector(".fa-plus-circle");
     const minus = card.querySelector(".fa-minus-circle");
